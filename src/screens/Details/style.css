@@ -1,0 +1,23 @@
+.user-widget-2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+.title-idioma {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-group {
+  position: absolute;
+  top: 100%;
+}
+
+.btn-img {
+  height: 22px;
+  margin-right: 10px;
+}

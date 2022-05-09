@@ -1,0 +1,67 @@
+.user-widget {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.portada {
+  width: 100%;
+  position: absolute;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeInAnimation ease 1s;
+  animation-fill-mode: forwards;
+}
+
+.fade-out {
+  animation: fadeOutAnimation ease 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.title-container {
+  margin-top: 3%;
+  margin-left: 3%;
+  z-index: 999;
+  position: absolute;
+}
+
+.description {
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+  font-size: 20px;
+  color: white;
+  width: 50%;
+}
+
+.sliders {
+  margin-top: 23%;
+  margin-left: 23px;
+  margin-right: 23px;
+  background-color: black;
+  z-index: 9999 !important;
+}
